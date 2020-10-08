@@ -1,0 +1,27 @@
+@media screen and (max-width: 468px) {
+     body {
+          padding: 0;
+          margin: 0;
+     }
+     nav ul li:hover {
+          background-color: #046995;
+          padding: 0px 20px;
+          display: block;
+     }
+
+     nav ul li {
+          padding: 0px 20px;
+          display: block;
+          margin-top: 10px;
+     }
+     nav ul li a {
+          font-size: 13px;
+     }
+     .caption {
+          padding-top: 80px;
+     }
+     .headerSection {
+          height: 70vh;
+          width: 100%;
+     }
+}

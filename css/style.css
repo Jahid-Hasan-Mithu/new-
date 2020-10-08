@@ -1,0 +1,345 @@
+* {
+     font-family: 'Roboto', sans-serif;
+}
+.section {
+     padding: 100px 0;
+}
+body {
+     background-color: #f0efef;
+}
+
+/* .......................................................
+..................HeaderSection .......................
+............................................................ */
+
+.headerSection {
+     background-image: linear-gradient(
+               rgba(01, 01, 01, 0.6),
+               rgba(59, 42, 25, 0.6)
+          ),
+          url(../img/bg1.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     height: 88vh;
+     width: 100%;
+}
+
+.caption {
+     padding-top: 220px;
+}
+
+.caption h1 {
+     font-size: 70px;
+     margin-bottom: 20px;
+}
+.caption span {
+     color: #2eb5ef;
+}
+.caption p {
+     font-size: 20px;
+}
+.bg1 span {
+     color: #2eb5ef;
+}
+.caption .btn {
+     border: 1px solid #fff;
+     padding-left: 25px;
+     padding-right: 25px;
+     margin-top: 30px;
+}
+.caption .btn:hover {
+     background-color: #2eb5ef;
+}
+.my-nav {
+     background-color: #2eb5ef;
+     height: 90px;
+}
+nav ul li {
+     padding: 25px 10px;
+     display: block;
+}
+nav ul li a {
+     font-weight: 700;
+     color: #fff !important;
+}
+
+nav ul li:hover {
+     background-color: #046995;
+}
+
+/* ..................service Section.......................
+............................................................ */
+
+.serviceSection i {
+     font-size: 40px;
+     border: 1px solid #2eb5ef;
+     padding: 8px 12px;
+     background-color: #2eb5ef;
+     border-radius: 5px;
+     margin-bottom: 20px;
+     color: #fff;
+}
+.serviceSection i:hover {
+     background-color: #f0efef;
+     color: #2eb5ef;
+     border-color: #f0efef;
+}
+
+.serviceSection .row {
+     padding-top: 70px;
+}
+.serviceSection .row h5 {
+     color: #313132;
+}
+.serviceSection .row p {
+     padding-top: 10px;
+     color: #7d7d7e;
+}
+
+/* ..................About Section.......................
+............................................................ */
+
+.aboutSection {
+     background-image: linear-gradient(
+               rgba(01, 01, 01, 0.5),
+               rgba(59, 42, 25, 0.5)
+          ),
+          url(../img/bg2.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     height: 420px;
+}
+.AboutContent {
+     margin-top: -40px !important;
+}
+.proggres {
+     box-sizing: border-box;
+}
+
+.proggres .container {
+     width: 100%;
+     height: 20px;
+     padding: 0px;
+     background-color: #fff;
+}
+.skills {
+     text-align: right;
+     color: white;
+     font-size: 12px;
+}
+.User {
+     width: 90%;
+     height: 20px;
+     background-color: #2eb5ef;
+}
+.Web {
+     width: 75%;
+     height: 20px;
+     background-color: #2eb5ef;
+}
+.Prog {
+     width: 85%;
+     height: 20px;
+     background-color: #2eb5ef;
+}
+.Fun {
+     width: 60%;
+     height: 20px;
+     background-color: #2eb5ef;
+}
+
+/* ..................portfolio Section.......................
+............................................................ */
+
+.portfolioSection {
+     padding-bottom: 30px;
+}
+.bg3 {
+     background-image: linear-gradient(rgb(255, 0, 0, 0.2), rgb(255, 0, 0, 0.2)),
+          url(../img/bg3.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     height: 620px;
+     width: 100%;
+     margin-top: 70px;
+}
+
+/* ..................team section.......................
+............................................................ */
+
+.teamContent .row {
+     margin-top: 70px;
+}
+.member h5 {
+     padding-top: 5px;
+     color: #9d9d9d;
+}
+.micon i {
+     border: 1px solid #e1e1e1;
+     padding: 10px;
+     background-color: #e1e1e1;
+     color: #fff;
+     border-radius: 5px;
+}
+.micon i:hover {
+     color: #028fcc;
+     background-color: #313132;
+     border: 1px solid #313132;
+}
+
+/* ..................summery section.......................
+............................................................ */
+
+.summerySection {
+     background-image: linear-gradient(
+               rgba(01, 01, 01, 0.5),
+               rgba(59, 42, 25, 0.5)
+          ),
+          url(../img/bg4.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     width: 100%;
+     height: 317px;
+     margin: 100px 0px;
+}
+.squareIcon {
+     font-size: 50px;
+}
+
+.pbar p {
+     margin-top: 20px;
+     margin-bottom: 5px;
+}
+
+.table .card {
+     border: 3px solid #c6c4c4;
+     background-color: #f0efef;
+     margin-top: 50px;
+}
+.table .card:hover {
+     background-color: #2eb5ef;
+     border-color: #2eb5ef;
+}
+.table .card h5 {
+     color: #313132;
+}
+.table .card h1 {
+     color: #676767;
+}
+
+.table .card p {
+     font-size: 13px;
+     color: #676767;
+}
+.table .card .btn:hover {
+     background-color: #fff;
+     color: #2eb5ef;
+     border-color: #fff;
+}
+
+.themumSection {
+     background-image: linear-gradient(rgb(0, 0, 255, 0.5), rgb(0, 0, 255, 0.5)),
+          url(../img/bg5.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     width: 100%;
+     height: 368px;
+     margin-top: 80px;
+}
+
+.themum i {
+     font-size: 30px;
+     border: 1px solid #028fcc;
+     padding: 10px;
+     background-color: #028fcc;
+     border-radius: 10px;
+}
+.themum i:hover {
+     background-color: #fff;
+     color: #028fcc;
+     border-color: #fff;
+}
+
+.blogSection .card-deck {
+     padding-top: 70px;
+     background-color: #f0efef;
+}
+.blogSection .card {
+     background-color: #f0efef;
+     border: none;
+}
+
+.pdate {
+     font-size: 10px;
+     padding: 10px 0px;
+}
+.card-text {
+     color: #676767;
+     font-size: 10px;
+}
+.blogSection .btn {
+     border: 1px solid black;
+     margin-top: 50px;
+     border-radius: 0%;
+}
+
+.contactSection {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url(../img/bg6.png);
+     background-size: cover;
+     background-position: center;
+     position: relative;
+     width: 100%;
+     height: 650px;
+}
+
+.contactbody {
+     text-align: center;
+     color: #fff;
+}
+form .btn {
+     background: #2eb5ef;
+     border-radius: 0%;
+}
+.form-control {
+     border-radius: 0%;
+     background: transparent;
+}
+.Address {
+     padding: 20px 80px;
+}
+.Address p {
+     font-size: 15px;
+     color: #fff;
+}
+.iconAddress {
+     padding-top: 30px;
+     font-size: 12px;
+}
+.footerContent {
+     background-color: #2eb5ef;
+     height: 120px;
+     width: 100%;
+     text-align: center;
+     padding-top: 20px;
+}
+.footerContent img {
+     height: 40px;
+}
+.footericon a {
+     padding: 5px;
+}
+.footericon i {
+     font-size: 20px;
+     padding: 5px 8px;
+     border: 1px solid #1497d0;
+     background-color: #1497d0;
+     color: #fff;
+     margin-top: 13px;
+     display: inline-block;
+}
